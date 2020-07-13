@@ -1,6 +1,6 @@
 # WordPress-Plugins
 
-This Repositort Contains Two Folders Named as "airforce-sms-to-parent" and "dean-frontend-survey"
+This Repositort Contains Two Folders Named as <code>airforce-sms-to-parent</code> and <code>dean-frontend-survey</code>
 
 ### Airforce SMS to Parent
 This Branch has code for Bulk SMS plugin to comma seprated numbers. This Plugin is can be used anywhere, only the API key needs to be setup.
