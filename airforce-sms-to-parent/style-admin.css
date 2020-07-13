@@ -1,0 +1,12 @@
+.widefat {width: auto;}
+.ss-list-width {min-width:10%}
+.ss-form-width {width:100%}
+.ss-th-width {width:25%}
+.ss-field-width {width:75%}
+
+th.manage-column.column-author {
+    padding: 10px 10px;
+    background: #ededed;
+    border: 1px solid #ababab;
+    font-size: 15px;
+}
