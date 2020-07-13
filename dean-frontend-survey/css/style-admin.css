@@ -1,0 +1,177 @@
+.info {
+    border: 1px dashed;
+    padding: 10px 0px;
+    width: 50%;
+	text-indent:10px;
+}
+select#d_survey_category {
+    width: 10%;
+}
+form#survey-form-cat .form-field, 
+.main-survey-container, 
+.error-messages-d {
+    margin: 10px;
+    padding: 5px;
+}
+.type-of-survey-answers {
+    margin: 10px 0px;
+}
+input[type=text] {
+    width: 95%;
+}
+.error-messages-d {
+    color: red;
+}
+div#survey-answer-options{
+    float: left;
+    width: 95%;
+    clear: both;
+    margin-bottom: 10px;
+}
+.radio-button-option-style input.option-radio-options,
+.checkbox-button-option-style input.option-checkbox-options {
+    width: 80%;
+    margin-bottom: 10px;
+}
+.radio-button-option-style a.radio-button-option-button,
+.checkbox-button-option-style a.checkbox-button-option-button,
+.radio-button-option-style span.delete-option-radio,
+.checkbox-button-option-style span.delete-option-checkbox
+{
+    float: right;
+}
+.add-new-element {
+    border: 1px dashed;
+    padding: 40px 10px;
+    float: left;
+    width: 95%;
+    margin: 10px 0px;
+}
+a.radio-button-option-button,
+a.checkbox-button-option-button{
+    cursor: pointer;
+    padding: 8px;
+    background: #007cba;
+    color: #fff;
+    border-radius: 5px;
+}
+
+span.delete-option-radio,
+span.delete-option-checkbox{    
+    cursor: pointer;
+    padding: 8px;
+    background: #007cba;
+    color: #fff;
+    border-radius: 5px;
+}
+
+p.delete-element{
+    float:right;
+    color:#b90404;
+    cursor: pointer;
+}
+i.fa.fa-trash {
+    float: right;
+}
+/* form#category-add-submit input {
+    width: 20%;
+} */
+/*css for chart*/
+#Progress_Status { 
+    width: 99%; 
+    background-color: #ddd; 
+  } 
+  .myprogressBar { 
+    width: 1%; 
+    height: 30px; 
+    background-color: #4CAF50; 
+    text-align: center; 
+    line-height: 20px; 
+    color: black; 
+  } 
+  .count{
+      font-size:12px;
+      font-weight: 900;
+      float: right;
+  }
+
+.survey_content {
+    width: 49%; 
+    border: 1px solid;
+}
+/* #wpfooter p {
+    font-size: 13px;
+    margin: 0;
+    line-height: 1.55;
+    position: fixed;
+    right: 0;
+    bottom: 0px;
+} */
+table.table.backend-table>thead th{ background:#ccc;	padding:7px;}
+table.table.backend-table>tbody>tr>td {
+    text-align: center;
+	padding:7px;
+}
+
+.surveBG{ padding:15px; background:#fff;}
+.surveyInfo{ display:flex; align-items:center;}
+
+#poststuff { background:#fff; display:inline-block; padding:15px;}
+select#parent_cat {
+    width: 100%;
+}
+#category-add-submit label,table th,#survey-form-cat label{ font-weight:bold !important;} 
+form#survey-form-cat {
+    background: #fff;
+    padding: 15px 0;
+}
+.submit-survey {
+    padding: 15px;
+    display: inline-block;
+}
+select#d_survey_category {
+    width: 100%;
+}
+#v-survey-question{ width:99%;    height: 40px;}
+.form-field select {
+    max-width: 100%;
+    height: 40px;
+}
+.add-new-element {
+     width: 98%;
+ }
+.form-field input[type=text]{ width:100%; height:40px;}
+#col-left {
+     width: 40%;
+}
+#col-right {
+    float: right;
+    width: 59%;
+}
+.type-of-survey-answers {
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+.type-of-survey-answers label { margin-right:10px;}
+form#update-default-question-cat {
+    background: #fff;
+}
+input[type=text] {
+    height:40px;
+}
+.remove-this-later {
+    background: #fff;
+    padding: 15px;
+}
+
+.remove-this-later #data-table_filter{ margin-bottom:10px;}
+input[type=radio] {
+     margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+
+

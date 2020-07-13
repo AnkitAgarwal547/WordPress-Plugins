@@ -1,0 +1,226 @@
+
+.type-of-survey-answers {
+    display: inline-flex;
+    margin: 10px 0px;
+}
+label.survey_title {
+    font-size: 32px;
+    font-weight: 700;
+}
+.v-survey-heading {
+    padding: 20px 0px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.radio-button-option-style, .checkbox-button-option-style{
+    width: 100%; float: left; margin-bottom: 20px;
+}
+.radio-button-option-style input,
+.checkbox-button-option-style input{
+    float: left;
+    width: 70%;
+    margin-bottom: 5px;
+}
+.radio-button-option-style a,
+.checkbox-button-option-style a{
+    float: right;
+    padding: 10px;
+    background: #000;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 5px 0px;
+    border: 1px solid #000;
+}
+span.delete-option-radio,
+span.delete-option-checkbox{
+    padding: 10px;
+    background: #9a0000;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 5px;
+    float: right;
+    border: 1px solid #9a0000;
+}
+a#add-new-element {
+    color: #fff;
+    background: #cd2653;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a#add-new-element:hover {
+    color: #cd2653;
+    border: 1px solid #cd2653;
+    background: #fff;
+}
+span.delete-option-radio:hover,
+span.delete-option-checkbox:hover
+{
+    cursor: pointer;
+    border: 1px solid#cd2653;
+    background: #fff;
+    color: #cd2653;
+}
+.radio-button-option-style a:hover,
+.checkbox-button-option-style a:hover{
+    cursor: pointer;
+    border: 1px solid#cd2653;
+    background: #fff;
+    color: #cd2653;
+}
+.submit-survey {
+    text-align: right;
+    margin-top: 20px;
+}
+.v-add-new-survey {
+    border: 1px solid #cd2653;
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.main-survey-container input[type=radio] {
+    width: 20px;
+    height: 20px;
+}
+.main-survey-container input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+.type-of-survey-answers label {
+    font-size: 18px;
+    margin: 0px 5px;
+    font-weight: 500;
+}
+button#create-survey,
+button#update-survey {
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #cd2653;
+}
+button#create-survey:hover,
+button#update-survey:hover {
+    background: #fff;
+    color: #cd2653;
+    border: 1px solid #cd2653;
+}
+.error-messages-d{
+    color: red;
+}
+
+.remove-this-later {
+    max-width: 100% !important;
+}
+select.form-control {
+    width: 10%;
+}
+form#load-default-question button.button.button-primary {
+    text-decoration: none;
+}
+.options-survey label{
+    display: inline;
+    vertical-align: top;
+}
+.dean-basic-detail {
+    border: 1px solid #cd2653;
+    padding: 20px;
+}
+
+/*css for chart*/
+#Progress_Status { 
+    width: 99%; 
+    background-color: #ddd; 
+  } 
+  .myprogressBar { 
+    width: 1%; 
+    height: 20px; 
+    background-color: #4CAF50; 
+    text-align: center; 
+    line-height: 20px; 
+    color: black; 
+  } 
+  .count{
+      font-size:12px;
+      font-weight: 900;
+      float: right;
+  }
+
+  /*css for school*/
+  .survey_content {
+      max-width: 100%;
+      min-width: 60%;
+      display:inline-block;
+      vertical-align: top;
+      margin-left: 100px;
+    }
+    .survey_ana{
+        max-width: 100% !important;
+        min-width: 40% !important;
+        border: 1px solid ; margin-top: 3em;
+        display:flex;
+    }
+    .survey_dash{
+        max-width: 100% !important;
+        min-width: 40% !important;
+        margin-top: 3em;
+        display:flex;
+    }
+    .survey_main{
+        max-width: 100% !important;
+        min-width: 40% !important;
+        border: 1px dotted ; margin-top: 3em;
+        display:flex;
+    }
+    .survey_content h2{
+        margin-top: 0px;
+    }
+.active {
+  color: black!important;  /* THIS DOES NOT WORK**/
+  background-color: chartreuse; /**THIS WORKS**/
+}
+.tablinks{ cursor: pointer; }
+a#add-new-question,a#add-update-element {background: #569bca;text-decoration: none;padding: 6px 20px; color:#fff;font-size: 18px;
+    display:inline-block;border-radius: 0px;border:1px solid #569bca; cursor: pointer;}
+a#add-new-question:hover,a#add-update-element:hover { border:1px solid #569bca; color: #569bca; background: transparent; }
+
+p#bucket-counter {
+    right: 0;
+    top: 40%;
+    position: fixed;
+    background: #58dc8b;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 6px #000;
+    color: #ffffff;
+    transform: translateY(-40%);
+}
+
+/*compare*/
+.btn-circle.btn-sm { 
+    width: 30px; 
+    height: 30px; 
+    padding: 6px 0px; 
+    border-radius: 15px; 
+    font-size: 15px; 
+    text-align: center; 
+}
+.chart-comp{
+    border:1px dotted;
+    padding:20px;
+}
+#myChart_first{
+    margin-right: 10px;
+}
+#report_analysis{
+    width: 50%; 
+    display: inline-flex;
+}
