@@ -6,7 +6,7 @@ This Repositort Contains Two Folders Named as <code>airforce-sms-to-parent</code
 This Branch has code for Bulk SMS plugin to comma seprated numbers. This Plugin is can be used anywhere, only the API key needs to be setup.
 
 ### Dean Frontend Survey
-This Branch has code for Survey plugin, made for WordPress. This is client specific Plugin but the basics of this plugin can be used anywhere in survey plugin. From this any Logged in User can Create Survey and send link to users to give survey.
+This Branch has code for Survey plugin, made for WordPress. This is a client-specific Plugin but the basics of this plugin can be used anywhere in the survey plugin. From this any Logged in User can Create Survey and send a link to users to give a survey.
 Reporting is there with charts and graphs.
 
 
